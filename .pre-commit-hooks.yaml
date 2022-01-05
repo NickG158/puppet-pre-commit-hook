@@ -1,0 +1,7 @@
+-   id: puppet-lint
+    name: puppet-lint
+    description: Runs puppet-lint
+    entry: pre-commit
+    language: script
+    require_serial: true
+    files: \.pp$
